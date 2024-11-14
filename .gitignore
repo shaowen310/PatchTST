@@ -161,8 +161,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-dataset
-checkpoints
-results
-test_results
+*/dataset
+*/checkpoints
+*/results
+*/test_results
 result.txt
