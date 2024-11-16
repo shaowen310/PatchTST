@@ -8,10 +8,10 @@ fi
 seq_len=96
 model_name=PatchTST
 
-root_path_name=./dataset/ETT-small
-data_path_name=ETTm2.csv
-model_id_name=ETTm2
-data_name=ETTm2
+root_path_name=./dataset/exchange_rate
+data_path_name=exchange_rate.csv
+model_id_name=exchange
+data_name=custom
 
 random_seed=2021
 for pred_len in 24 36 48 96 192
@@ -30,7 +30,7 @@ do
       --features M \
       --seq_len $seq_len \
       --pred_len $pred_len \
-      --enc_in 7 \
+      --enc_in 8 \
       --e_layers 3 \
       --n_heads 16 \
       --d_model 128 \

@@ -14,7 +14,7 @@ model_id_name=ETTh2
 data_name=ETTh2
 
 random_seed=2021
-for pred_len in 24 36 48 96
+for pred_len in 24 36 48 96 192
 do
 
     model_id=${model_name}_${model_id_name}_${seq_len}_${pred_len}

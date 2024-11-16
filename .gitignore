@@ -165,4 +165,5 @@ cython_debug/
 */checkpoints
 */results
 */test_results
+*/logs
 result.txt
