@@ -31,6 +31,8 @@ do
       --seq_len $seq_len \
       --pred_len $pred_len \
       --enc_in 21 \
+      --dec_in 21 \
+      --c_out 21 \
       --e_layers 3 \
       --n_heads 16 \
       --d_model 128 \
